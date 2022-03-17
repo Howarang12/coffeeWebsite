@@ -1,0 +1,82 @@
+.navbar-menu-area, .navbar-menu-area ul.navbar-menu {
+    height: 100%;
+}
+
+.navbar-menu-area ul.navbar-menu li a {
+   text-decoration: none;
+   color:black;
+   display: block;
+   padding: 1rem 2rem;
+}
+
+.navbar .navbar-search-input {
+    border-radius: 2rem;
+    border:1px solid lightgray;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.navbar .navbar-search-input::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    color:black;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    font-size: 1rem;
+}
+
+.navbar .navbar-search-input::placeholder {
+    color: rgb(94, 94, 94);
+    font-size: 1.5em;
+}
+  
+
+
+
+@media all and (min-width:600px){
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        flex-basis: 60%;
+    }
+
+    .navbar {
+        display:flex;
+        height:100px;
+        justify-content: space-evenly ;
+        align-items: center;
+    }
+
+    .navbar-logo-area{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-basis: 10%;
+    }
+
+    .navbar-search-area{
+        flex-basis: 15%;
+    }
+
+    .navbar-shopping-cart-area{
+        flex-basis: 5%;
+    }
+
+    .logo{
+      width: 50px
+    }
+
+    .navbar-menu ul li a {
+        padding: 1rem 2rem;
+    }
+
+
+/* 
+    .navbar>div {
+        background-color: green;
+        border:1px solid black;
+    } */
+
+}

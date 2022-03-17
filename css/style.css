@@ -1,0 +1,65 @@
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  background-color: #eee4dc ;
+
+/* main section */
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+main h1 {
+  font-size: 3rem;
+}
+
+#buy_btn{
+  background:#1f2131;
+  color:white;
+  padding: 1rem 3rem;
+  border-radius: 25%;
+}
+
+main li{
+  display: flex;
+  align-items: center;
+}
+
+.icon_bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+/* bottom */
+.frapPicker {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
